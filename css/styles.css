@@ -1,1 +1,76 @@
-
+.header .portada {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .header .portada-info {
+    width: 100%;
+    background-color: #0F8195;
+    padding: 8% 0;
+    color: white; }
+    .header .portada-info .title {
+      font-size: 35px; }
+    .header .portada-info .text {
+      margin-top: 10px;
+      font-size: 16px; }
+    .header .portada-info .vertical {
+      display: inline-block;
+      color: white;
+      padding: 14px 17px;
+      background: #1475c4;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
+      margin: 20px 0; }
+    .header .portada-info .button:hover {
+      background-color: #044a7c;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      border-radius: 3px; }
+.header .menu-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0; }
+  .header .menu-list .item {
+    cursor: pointer;
+    list-style: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0 -2px; }
+    .header .menu-list .item a {
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none; }
+  .header .menu-list .item:hover {
+    background-color: #9bd2fa;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .header .menu-list .item:active {
+    background-color: #82fce6; }
