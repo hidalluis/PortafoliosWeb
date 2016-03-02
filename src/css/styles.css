@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/*Colors */
+.header .portada {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .header .portada-info {
+    width: 100%;
+    background-color: #0F8195;
+    padding: 8% 0;
+    color: white; }
+    .header .portada-info .title {
+      font-size: 35px; }
+    .header .portada-info .text {
+      margin-top: 10px;
+      font-size: 16px; }
+    .header .portada-info .button {
+      display: inline-block;
+      color: white;
+      padding: 14px 17px;
+      background: #1475c4;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
+      margin: 20px 0; }
+    .header .portada-info .button:hover {
+      background-color: #68b3f0;
+      transition: all 0.5s ease;
+      border-radius: 3px; }
+.header .menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0; }
+  .header .menu-list .item {
+    cursor: pointer;
+    list-style: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0 -2px; }
+    .header .menu-list .item a {
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none; }
+  .header .menu-list .item:hover {
+    background-color: #9bd2fa;
+    border-radius: 5px;
+    transition: all 0.5s ease; }
+  .header .menu-list .item:active {
+    background-color: #82fce6; }
+
+.author .author-contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0px 0; }
+  .author .author-contenedor .photo {
+    background-color: #0F8195;
+    padding-right: 0px; }
+  .author .author-contenedor .info {
+    background-color: #ece6e6;
+    padding: 25px 110px 50px 50px; }
+    .author .author-contenedor .info-sobreMi {
+      display: inline-block; }
+      .author .author-contenedor .info-sobreMi-sobreMi, .author .author-contenedor .info-sobreMi div {
+        border: 3px solid red;
+        display: block; }
+    .author .author-contenedor .info-name {
+      margin-top: 20px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 19px; }
+    .author .author-contenedor .info-title {
+      margin-top: 1px;
+      font-size: 14px; }
+    .author .author-contenedor .info-descrition {
+      font-size: 13px;
+      line-height: 18px;
+      margin: 15px 0 30px 0; }
+    .author .author-contenedor .info-curriculum {
+      text-align: center;
+      border: 2px solid black;
+      display: inline-block;
+      padding: 11px 15px;
+      font-size: 13px;
+      list-style: none;
+      text-decoration: none;
+      font-weight: bolder; }
+    .author .author-contenedor .info-curriculum:hover {
+      background-color: #9bd2fa;
+      transition: all 0.5s ease; }
+
+.expertise {
+  padding: 40px 0;
+  margin: 0 auto; }
+  .expertise .expertiseContenedor .descrition {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .expertise .expertiseContenedor .descrition-title {
+      display: inline-block; }
+      .expertise .expertiseContenedor .descrition-title-title, .expertise .expertiseContenedor .descrition-title h3 {
+        margin-bottom: 5px; }
+      .expertise .expertiseContenedor .descrition-title-title, .expertise .expertiseContenedor .descrition-title div {
+        border: 3px solid red;
+        display: block; }
+    .expertise .expertiseContenedor .descrition-info {
+      margin-top: 30px; }
+  .expertise .expertiseContenedor .herraminetas {
+    text-align: center;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .expertise .expertiseContenedor .herraminetas-diseñoWeb, .expertise .expertiseContenedor .herraminetas-frontend {
+      margin-bottom: 28px; }
+      .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .flash, .expertise .expertiseContenedor .herraminetas-frontend .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .jquery, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div, .expertise .expertiseContenedor .herraminetas-frontend .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div, .expertise .expertiseContenedor .herraminetas-frontend .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div, .expertise .expertiseContenedor .herraminetas-frontend .flash .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .flash div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .flash div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .flash div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .flash div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .flash div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .flash div, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div, .expertise .expertiseContenedor .herraminetas-frontend .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .jquery div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .jquery div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .jquery div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .jquery div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .jquery div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .jquery div, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div + .flash, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div {
+          border-radius: 50px 50px;
+          border: 5px solid red;
+          line-height: 80px;
+          font-size: 16px;
+          font-weight: bolder;
+          width: 90px;
+          height: 90px; }
+        .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery div, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql h4 + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql div, .expertise .expertiseContenedor .herraminetas-frontend .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .photoshop h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .photoshop h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .photoshop div, .expertise .expertiseContenedor .herraminetas-frontend .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .illustrator h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .illustrator h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .illustrator div, .expertise .expertiseContenedor .herraminetas-frontend .flash .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .flash h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .flash h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .flash div, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 div, .expertise .expertiseContenedor .herraminetas-frontend .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .jquery h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .jquery h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .jquery div, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql h4 + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql h4 + .flash, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql div {
+          margin-top: 20px; }
+        .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .photoshop p, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .illustrator p, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .flash p, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .html5css3 p, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .jquery p, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p + .illustrator, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p + .flash, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p + .html5css3, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p + .jquery, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p + .phpmysql, .expertise .expertiseContenedor .herraminetas-diseñoWeb .phpmysql p, .expertise .expertiseContenedor .herraminetas-frontend .photoshop .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .photoshop p, .expertise .expertiseContenedor .herraminetas-frontend .illustrator .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .illustrator p, .expertise .expertiseContenedor .herraminetas-frontend .flash .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .flash p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .flash p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .flash p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .flash p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .flash p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .flash p, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .html5css3 p, .expertise .expertiseContenedor .herraminetas-frontend .jquery .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .jquery p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .jquery p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .jquery p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .jquery p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .jquery p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .jquery p, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql .photoshop, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p + .illustrator, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p + .flash, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p + .html5css3, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p + .jquery, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p + .phpmysql, .expertise .expertiseContenedor .herraminetas-frontend .phpmysql p {
+          padding: 0; }
+
+.workExpertise, .education, .portfolio {
+  background-color: #F7F6F7;
+  padding: 40px 0; }
+  .workExpertise .workInfo, .workExpertise .content, .workExpertise .port, .education .workInfo, .education .content, .education .port, .portfolio .workInfo, .portfolio .content, .portfolio .port {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px; }
+    .workExpertise .workInfo-title, .workExpertise .workInfo-titlee, .workExpertise .content-title, .workExpertise .content-titlee, .workExpertise .port-title, .workExpertise .port-titlee, .education .workInfo-title, .education .workInfo-titlee, .education .content-title, .education .content-titlee, .education .port-title, .education .port-titlee, .portfolio .workInfo-title, .portfolio .workInfo-titlee, .portfolio .content-title, .portfolio .content-titlee, .portfolio .port-title, .portfolio .port-titlee {
+      display: inline-block; }
+      .workExpertise .workInfo-title-title, .workExpertise .workInfo-title h3, .workExpertise .workInfo-titlee-title, .workExpertise .workInfo-titlee h3, .workExpertise .content-title-title, .workExpertise .content-title h3, .workExpertise .content-titlee-title, .workExpertise .content-titlee h3, .workExpertise .port-title-title, .workExpertise .port-title h3, .workExpertise .port-titlee-title, .workExpertise .port-titlee h3, .education .workInfo-title-title, .education .workInfo-title h3, .education .workInfo-titlee-title, .education .workInfo-titlee h3, .education .content-title-title, .education .content-title h3, .education .content-titlee-title, .education .content-titlee h3, .education .port-title-title, .education .port-title h3, .education .port-titlee-title, .education .port-titlee h3, .portfolio .workInfo-title-title, .portfolio .workInfo-title h3, .portfolio .workInfo-titlee-title, .portfolio .workInfo-titlee h3, .portfolio .content-title-title, .portfolio .content-title h3, .portfolio .content-titlee-title, .portfolio .content-titlee h3, .portfolio .port-title-title, .portfolio .port-title h3, .portfolio .port-titlee-title, .portfolio .port-titlee h3 {
+        margin-bottom: 5px; }
+      .workExpertise .workInfo-title-title, .workExpertise .workInfo-title div, .workExpertise .workInfo-titlee-title, .workExpertise .workInfo-titlee div, .workExpertise .content-title-title, .workExpertise .content-title div, .workExpertise .content-titlee-title, .workExpertise .content-titlee div, .workExpertise .port-title-title, .workExpertise .port-title div, .workExpertise .port-titlee-title, .workExpertise .port-titlee div, .education .workInfo-title-title, .education .workInfo-title div, .education .workInfo-titlee-title, .education .workInfo-titlee div, .education .content-title-title, .education .content-title div, .education .content-titlee-title, .education .content-titlee div, .education .port-title-title, .education .port-title div, .education .port-titlee-title, .education .port-titlee div, .portfolio .workInfo-title-title, .portfolio .workInfo-title div, .portfolio .workInfo-titlee-title, .portfolio .workInfo-titlee div, .portfolio .content-title-title, .portfolio .content-title div, .portfolio .content-titlee-title, .portfolio .content-titlee div, .portfolio .port-title-title, .portfolio .port-title div, .portfolio .port-titlee-title, .portfolio .port-titlee div {
+        border: 3px solid red;
+        display: block; }
+    .workExpertise .workInfo-descrition, .workExpertise .workInfo-info, .workExpertise .content-descrition, .workExpertise .content-info, .workExpertise .port-descrition, .workExpertise .port-info, .education .workInfo-descrition, .education .workInfo-info, .education .content-descrition, .education .content-info, .education .port-descrition, .education .port-info, .portfolio .workInfo-descrition, .portfolio .workInfo-info, .portfolio .content-descrition, .portfolio .content-info, .portfolio .port-descrition, .portfolio .port-info {
+      margin-top: 30px; }
+  .workExpertise .work, .workExpertise .list, .education .work, .education .list, .portfolio .work, .portfolio .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px; }
+    .workExpertise .work-title, .workExpertise .work-titulo, .workExpertise .list-title, .workExpertise .list-titulo, .education .work-title, .education .work-titulo, .education .list-title, .education .list-titulo, .portfolio .work-title, .portfolio .work-titulo, .portfolio .list-title, .portfolio .list-titulo {
+      text-align: right;
+      position: relative;
+      height: auto;
+      padding: 39px 10px 55px 50px; }
+      .workExpertise .work-title .lista, .workExpertise .work-title .listt, .workExpertise .work-titulo .lista, .workExpertise .work-titulo .listt, .workExpertise .list-title .lista, .workExpertise .list-title .listt, .workExpertise .list-titulo .lista, .workExpertise .list-titulo .listt, .education .work-title .lista, .education .work-title .listt, .education .work-titulo .lista, .education .work-titulo .listt, .education .list-title .lista, .education .list-title .listt, .education .list-titulo .lista, .education .list-titulo .listt, .portfolio .work-title .lista, .portfolio .work-title .listt, .portfolio .work-titulo .lista, .portfolio .work-titulo .listt, .portfolio .list-title .lista, .portfolio .list-title .listt, .portfolio .list-titulo .lista, .portfolio .list-titulo .listt {
+        display: inline-block;
+        list-style: none;
+        padding-right: 40px; }
+        .workExpertise .work-title .lista .dateInicio, .workExpertise .work-title .lista .inicioDate, .workExpertise .work-title .listt .dateInicio, .workExpertise .work-title .listt .inicioDate, .workExpertise .work-titulo .lista .dateInicio, .workExpertise .work-titulo .lista .inicioDate, .workExpertise .work-titulo .listt .dateInicio, .workExpertise .work-titulo .listt .inicioDate, .workExpertise .list-title .lista .dateInicio, .workExpertise .list-title .lista .inicioDate, .workExpertise .list-title .listt .dateInicio, .workExpertise .list-title .listt .inicioDate, .workExpertise .list-titulo .lista .dateInicio, .workExpertise .list-titulo .lista .inicioDate, .workExpertise .list-titulo .listt .dateInicio, .workExpertise .list-titulo .listt .inicioDate, .education .work-title .lista .dateInicio, .education .work-title .lista .inicioDate, .education .work-title .listt .dateInicio, .education .work-title .listt .inicioDate, .education .work-titulo .lista .dateInicio, .education .work-titulo .lista .inicioDate, .education .work-titulo .listt .dateInicio, .education .work-titulo .listt .inicioDate, .education .list-title .lista .dateInicio, .education .list-title .lista .inicioDate, .education .list-title .listt .dateInicio, .education .list-title .listt .inicioDate, .education .list-titulo .lista .dateInicio, .education .list-titulo .lista .inicioDate, .education .list-titulo .listt .dateInicio, .education .list-titulo .listt .inicioDate, .portfolio .work-title .lista .dateInicio, .portfolio .work-title .lista .inicioDate, .portfolio .work-title .listt .dateInicio, .portfolio .work-title .listt .inicioDate, .portfolio .work-titulo .lista .dateInicio, .portfolio .work-titulo .lista .inicioDate, .portfolio .work-titulo .listt .dateInicio, .portfolio .work-titulo .listt .inicioDate, .portfolio .list-title .lista .dateInicio, .portfolio .list-title .lista .inicioDate, .portfolio .list-title .listt .dateInicio, .portfolio .list-title .listt .inicioDate, .portfolio .list-titulo .lista .dateInicio, .portfolio .list-titulo .lista .inicioDate, .portfolio .list-titulo .listt .dateInicio, .portfolio .list-titulo .listt .inicioDate {
+          background-color: #EE7775;
+          color: white;
+          padding: 4px 6px;
+          margin-left: 20px; }
+        .workExpertise .work-title .lista .dateFin, .workExpertise .work-title .lista .finDate, .workExpertise .work-title .listt .dateFin, .workExpertise .work-title .listt .finDate, .workExpertise .work-titulo .lista .dateFin, .workExpertise .work-titulo .lista .finDate, .workExpertise .work-titulo .listt .dateFin, .workExpertise .work-titulo .listt .finDate, .workExpertise .list-title .lista .dateFin, .workExpertise .list-title .lista .finDate, .workExpertise .list-title .listt .dateFin, .workExpertise .list-title .listt .finDate, .workExpertise .list-titulo .lista .dateFin, .workExpertise .list-titulo .lista .finDate, .workExpertise .list-titulo .listt .dateFin, .workExpertise .list-titulo .listt .finDate, .education .work-title .lista .dateFin, .education .work-title .lista .finDate, .education .work-title .listt .dateFin, .education .work-title .listt .finDate, .education .work-titulo .lista .dateFin, .education .work-titulo .lista .finDate, .education .work-titulo .listt .dateFin, .education .work-titulo .listt .finDate, .education .list-title .lista .dateFin, .education .list-title .lista .finDate, .education .list-title .listt .dateFin, .education .list-title .listt .finDate, .education .list-titulo .lista .dateFin, .education .list-titulo .lista .finDate, .education .list-titulo .listt .dateFin, .education .list-titulo .listt .finDate, .portfolio .work-title .lista .dateFin, .portfolio .work-title .lista .finDate, .portfolio .work-title .listt .dateFin, .portfolio .work-title .listt .finDate, .portfolio .work-titulo .lista .dateFin, .portfolio .work-titulo .lista .finDate, .portfolio .work-titulo .listt .dateFin, .portfolio .work-titulo .listt .finDate, .portfolio .list-title .lista .dateFin, .portfolio .list-title .lista .finDate, .portfolio .list-title .listt .dateFin, .portfolio .list-title .listt .finDate, .portfolio .list-titulo .lista .dateFin, .portfolio .list-titulo .lista .finDate, .portfolio .list-titulo .listt .dateFin, .portfolio .list-titulo .listt .finDate {
+          background-color: #483B48;
+          color: white;
+          padding: 4px 6px; }
+      .workExpertise .work-title .linea, .workExpertise .work-title .borde, .workExpertise .work-titulo .linea, .workExpertise .work-titulo .borde, .workExpertise .list-title .linea, .workExpertise .list-title .borde, .workExpertise .list-titulo .linea, .workExpertise .list-titulo .borde, .education .work-title .linea, .education .work-title .borde, .education .work-titulo .linea, .education .work-titulo .borde, .education .list-title .linea, .education .list-title .borde, .education .list-titulo .linea, .education .list-titulo .borde, .portfolio .work-title .linea, .portfolio .work-title .borde, .portfolio .work-titulo .linea, .portfolio .work-titulo .borde, .portfolio .list-title .linea, .portfolio .list-title .borde, .portfolio .list-titulo .linea, .portfolio .list-titulo .borde {
+        position: absolute;
+        top: 60px;
+        right: -9px;
+        border-radius: 50px 50px;
+        border: 3px solid black;
+        width: 17px;
+        height: 17px;
+        z-index: 2;
+        background-color: #F7F6F7; }
+    .workExpertise .work-descrition, .workExpertise .work-content, .workExpertise .list-descrition, .workExpertise .list-content, .education .work-descrition, .education .work-content, .education .list-descrition, .education .list-content, .portfolio .work-descrition, .portfolio .work-content, .portfolio .list-descrition, .portfolio .list-content {
+      border-left: 2px dotted black;
+      padding: 10px 110px 55px 50px; }
+    .workExpertise .work:last-child .work-descrition, .workExpertise .work:last-child .list-content, .workExpertise .work:last-child .work-descrition, .workExpertise .work:last-child .list-content, .workExpertise .list:last-child .work-descrition, .workExpertise .list:last-child .list-content, .workExpertise .list:last-child .work-descrition, .workExpertise .list:last-child .list-content, .education .work:last-child .work-descrition, .education .work:last-child .list-content, .education .work:last-child .work-descrition, .education .work:last-child .list-content, .education .list:last-child .work-descrition, .education .list:last-child .list-content, .education .list:last-child .work-descrition, .education .list:last-child .list-content, .portfolio .work:last-child .work-descrition, .portfolio .work:last-child .list-content, .portfolio .work:last-child .work-descrition, .portfolio .work:last-child .list-content, .portfolio .list:last-child .work-descrition, .portfolio .list:last-child .list-content, .portfolio .list:last-child .work-descrition, .portfolio .list:last-child .list-content {
+      padding-bottom: 0; }
+
+.education {
+  background-color: white; }
+  .education .educationContainer .list-titulo {
+    padding: 52px 10px 55px 50px; }
+    .education .educationContainer .list-titulo .inicioDate {
+      padding-left: 20px; }
